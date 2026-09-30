@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software or the dataset it produces, please cite both."
+title: "Bioclimatic and seasonal climate variables for Europe under eight SSP-RCP pathways: pipeline code"
+abstract: >-
+  Delta-change downscaling of IPSL-CM6A-LR monthly fields onto the CHELSA V2.1
+  baseline climatology, producing 19 WorldClim bioclimatic variables and 8
+  seasonal Ricardian covariates at 30 arc-seconds for a 1981-2010 baseline and
+  eight SSP-RCP pathways across three future periods, with aggregation to 1,345
+  NUTS3 regions.
+type: software
+license: MIT
+authors:
+  - family-names: Borzoueinia
+    given-names: Amir Reza
+    affiliation: "Brandenburg University of Technology Cottbus-Senftenberg"
+    email: amirrezaborzouei@gmail.com
+keywords:
+  - bioclimatic variables
+  - CMIP6
+  - SSP-RCP scenarios
+  - delta-change downscaling
+  - CHELSA
+  - Ricardian analysis
+  - Europe
+version: "1.0.0"
+date-released: "2026-09-09"
+# doi: 10.5281/zenodo.XXXXXXX   # uncomment and fill after the code deposit
