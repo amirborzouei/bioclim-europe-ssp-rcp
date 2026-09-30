@@ -110,8 +110,7 @@ publishing work based on this dataset:
 |---|---|---|
 | IPSL-CM6A-LR | IPSL | Institut Pierre-Simon Laplace, Paris, France |
 
-Variant label `r1i1p1f1`. Further information:
-https://furtherinfo.es-doc.org/CMIP6.IPSL.IPSL-CM6A-LR.ssp585.none.r1i1p1f1
+Variant label `r1i1p1f1`.
 
 ## Citing the inputs
 
