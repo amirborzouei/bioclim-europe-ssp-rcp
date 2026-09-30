@@ -1,0 +1,36 @@
+# ---------------------------------------------------------------------------
+# Data. None of this belongs in git: the outputs are ~33 GB and the inputs are
+# third-party. They are archived on Zenodo instead; see README.md.
+# ---------------------------------------------------------------------------
+output_bioclim/
+output_bioclim_1km/
+output_economic_1km/
+output_economic_nuts3/
+results_figures/
+validation_outputs/
+# Third-party inputs, not redistributable or not ours to redistribute
+eobs_raw/
+chelsa_europe/
+eobs_bioclim.nc
+eobs_monthly_climatology.nc
+NUTS_2024_shp.*
+# Large or generated artefacts
+*.nc
+*.tif
+*.tiff
+bivariate_*.pdf
+bivariate_*.png
+# Derived caches written by the extract_* scripts. Regenerated on demand.
+.anomaly_cache.json
+.spatial_cache.json
+.seasonal_cache.json
+.mean_cache.json
+# Housekeeping
+__pycache__/
+*.py[cod]
+_backup_before_path_refactor/
+.DS_Store
+.ipynb_checkpoints/
+.spyproject/
+# Local config overrides, if you ever add one
+config.local.py
